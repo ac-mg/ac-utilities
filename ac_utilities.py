@@ -202,10 +202,12 @@ while True :
             if loop =='1':
                 looping()
 
-
-
             elif int(loop) > 1 :
                 current =
                 while current < int(loop):
                     looping()
                     current += 1
+            else :
+                print('\n   =========')
+                print('   =WTF BRO=')
+                print('   =========\n')
