@@ -104,31 +104,7 @@ while True :
             stri = input('Enter your string here: ')
             print('result : ',''.join(reversed(stri)))
 ######################################
-#JILL#
-        elif fun.lower() == 'jill' :
-            print('\n======')
-            print('=JILL=')
-            print('======\n')
-            print('Jill: Hello I am Jill, what is yout name?\n')
-            name = input('User: My name is: ' )
-            def bad():
-                print("\nJill: I am sorry to hear that. Why what is wrong?")
-                input()
-                print('\nJill: That is not cool at all but I know ', name,' you can get throw it')
-            def good():
-                print('\nJill: Sounds like you are having a nice day. So is there something you wanna talk about?')
 
-            #ZING#
-            if name.lower() =='zhour' or name.lower() =='jiji' or name.lower() =='tajou' or name =='joujou' or name =='tidjania' or name =='tajo' :
-                print('\nJill: OMG', name.upper() , 'How are you?')
-                print(name.upper(), ': \n1. I am just fine thanks for asking\n2. I am not feeling good today')
-                q1 = input()
-                while q1 == '1' or q1 == '2':
-                    if q1 == '2' :
-                        bad()
-                        break
-                q1 = '1'
-######################################
 #EQUATONS SOLVER#
         elif fun == "5" :
             print('\n   =============================')
