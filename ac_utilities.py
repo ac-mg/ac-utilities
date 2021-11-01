@@ -2,11 +2,11 @@
 #MAIN LOOP#
 while True :
     print('\n   =================\n   =====WELCOME=====\n   =================')
-    print("  useless utilities script by ac_mg")
+    print("  basic python utilities script by ac_mg")
     fun = input('\n   Type the number of the utility you wish to use: \n  1. Calculator \n  2. Heritage Counter \n  3. Vowels counter \n  4. String reverting \n  5. Equations Solver\n  6. Function Installation\n  ')
 
 #FUN_LOOP#
-    while fun != '1' and fun != '2' and fun !='3' and fun !='4' and fun !='5' and fun !='6' and fun.lower() != 'jill' :
+    while fun != '1' and fun != '2' and fun !='3' and fun !='4' and fun !='5' and fun !='6' :
         fun = input('please enter a valid number: ')
 
     else:
@@ -179,7 +179,7 @@ while True :
                 looping()
 
             elif int(loop) > 1 :
-                current =
+                current = 0
                 while current < int(loop):
                     looping()
                     current += 1
