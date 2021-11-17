@@ -1,3 +1,5 @@
+#CODE BY ONE OF THE LEGEND STUDENT'S
+
 import tkinter as tk
 import math
 from tkinter.constants import END
